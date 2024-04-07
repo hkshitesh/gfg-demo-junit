@@ -27,7 +27,12 @@ public class MyClass {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		MyClass ob = new MyClass();
+		System.out.println("Sum is "+ob.sum(20, 10));
+		System.out.println("Diff is "+ob.diff(20, 10));
+		System.out.println("Mul is "+ob.mul(20, 10));
+		System.out.println("Div is "+ob.div(20, 10));
+		ob.show();
 
 	}
 

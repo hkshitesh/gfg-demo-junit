@@ -23,6 +23,7 @@ public class MyClass {
 	public void show()
 	{
 		System.out.println("Hello GFG");
+		System.out.println("Hello DevOps");
 	}
 
 	public static void main(String[] args) {
